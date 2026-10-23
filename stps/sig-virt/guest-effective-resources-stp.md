@@ -75,7 +75,7 @@ technology, and testability before formal test planning.
 - [x] **Non-Functional Requirements (NFRs)**
   - *List applicable NFRs and their targets:*
     - **Usability:** when quota is too small, the pod stays scheduling-gated and an event explains the refusal. When the quota is raised, the gate is removed and the virtual machine starts. That is the negative scenario in [Section III](#iii-test-scenarios--traceability). There is no new screen and no new CLI.
-    - **Documentation:** No downstream documentation is required for the memory overhead a virtual machine reports. 
+    - **Documentation:** No downstream documentation is required for the memory overhead a virtual machine reports.
   - *Note any NFRs not covered and why:*
     - **Monitoring:** neither epic adds an alert. Quota usage and the virtual machine overhead are the values the scenarios read. No separate metrics scenario.
     - **UI:** No changes introduced.
